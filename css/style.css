@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header{
+        flex-direction: column;
+    }
+
+    .menu{
+        width: 100%;
+        flex-direction: column;}
+
+    .home-icon{margin-bottom: 10px;}
+
+    .main-container{
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6662/6662916.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.menu-button{
+    display:flex;
+    align-items: center;
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 20px 8px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.main-content-header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.banner-img {
+    height: 320px;
+    width: 700px;
+    margin-left: 10px;
+    padding-right: 1px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.img-slideshow {
+    height: 320px;
+    width: 700px;
+    margin-left: 10px;
+    padding-right: 1px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    gap:20px;
+}
+
+.main-item {
+    flex: 1;
+}
+
+
+.quote {
+    padding: 30px;
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+.number {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    align-content: center;
+}
+
+
+.left-align{
+    text-align: left;
+}
+
+.info {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact {
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+.send-button {
+    background-color: black;
+    width: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.our-package-header {
+    background-color:lightskyblue;
+    margin-top: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+article {
+    padding: 30px;
+    content: 30px;
+
+}
+
+.package-content{
+    display:flex;
+    padding: 30px;
+    
+}
+
+.destination {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    content: 20px;
+    display: flex;
+}
+
+.buttonCTA {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 555px;
+    margin-right: 630px;
+    width: 180px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: black;
+}
+
+
+footer {
+    text-align: center;
+}
